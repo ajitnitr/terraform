@@ -44,3 +44,11 @@ output "demo2" {
 #### Variable from TFVARS
 variable "input1" {}
 variable "input2" {}
+
+output "input1" {
+  value = var.input1
+}
+
+output "input2" {
+  value = var.input2
+}
