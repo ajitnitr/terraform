@@ -6,3 +6,4 @@ output "demo" {
   value = var.demo
 }
 
+variable "demo1" {}
