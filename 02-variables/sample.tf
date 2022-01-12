@@ -46,6 +46,7 @@ variable "input1" {}
 variable "input2" {}
 
 output "input1" {
+  type  = number
   value = var.input1
 }
 
